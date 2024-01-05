@@ -1,0 +1,30 @@
+.app {
+  width: 550px;
+  height: 350px;
+  outline: 2px solid;
+  box-shadow: 4px 1px 4px 1px grey;
+  border: 3px solid rgba(128, 128, 128, 0.699);
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.count-button {
+  border-radius: 40%;
+  border: 2px solid;
+}
+.INC {
+  color: green;
+}
+.RES {
+  color: grey;
+}
+.DEC {
+  color: red;
+}
+.counter-title {
+}
+.app h1 {
+  color: grey;
+}
