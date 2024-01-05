@@ -1,10 +1,11 @@
 import "./App.css";
 import Counter from "./components/counter/ReduxCounter";
+import { Provider } from "react";
 function App() {
   return (
-    <div className="App">
+    <Provider>
       <Counter />
-    </div>
+    </Provider>
   );
 }
 

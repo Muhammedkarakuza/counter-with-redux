@@ -8,21 +8,21 @@ const Counter = () => {
   };
   return (
     <div className="app">
-      <h2 className="counter-title">Counter Redux</h2>
+      <h1 className="counter-title">Counter Redux</h1>
       <h1>
         Counter:<span>0</span>
-        <div className="buttons">
-          <button className="count-button INC">
-            <AddCircleOutlineIcon />
-          </button>
-          <button className="count-button RES">
-            <RestartAltIcon />
-          </button>
-          <button className="count-button DEC">
-            <RemoveCircleOutlineIcon />
-          </button>
-        </div>
       </h1>
+      <div className="buttons">
+        <button className="count-button INC">
+          <AddCircleOutlineIcon />
+        </button>
+        <button className="count-button RES">
+          <RestartAltIcon />
+        </button>
+        <button className="count-button DEC">
+          <RemoveCircleOutlineIcon />
+        </button>
+      </div>
     </div>
   );
 };
