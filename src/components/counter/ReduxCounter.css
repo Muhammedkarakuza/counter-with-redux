@@ -1,9 +1,13 @@
-.app {
+.main-container {
   width: 550px;
   height: 350px;
-  outline: 2px solid;
-  box-shadow: 4px 1px 4px 1px grey;
-  border: 3px solid rgba(128, 128, 128, 0.699);
+  outline: 2px solid brown;
+  background-color: beige;
+  border: 3px solid rgba(165, 46, 42, 0.623);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .buttons {
   display: flex;
@@ -16,6 +20,7 @@
 }
 .INC {
   color: green;
+  font-weight: bold;
 }
 .RES {
   color: grey;
@@ -23,8 +28,4 @@
 .DEC {
   color: red;
 }
-.counter-title {
-}
-.app h1 {
-  color: grey;
-}
+/* rgba(128, 128, 128, 0.699) */
